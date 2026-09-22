@@ -4,13 +4,11 @@ Working repository for **Foundations of Operations Research**, a Master's course
 
 Lecture PDFs are edited in place. Earlier (clean) versions remain available through the git history of the same files.
 
-Official lecture slides and lab material are also distributed on WeBeep.
-
 ## Operations Research
 
 Operations Research (O.R.) is a branch of applied mathematics in which mathematical models and quantitative methods (for example optimization, game theory, and simulation) are used to analyze complex decision-making problems and find (near-)optimal solutions.
 
-The overall goal is to help make better decisions. The field sits at the interface of applied mathematics, computer science, economics, and industrial engineering.
+The overall goal of O.R. is to help make better decisions. The field sits at the interface of applied mathematics, computer science, economics, and industrial engineering.
 
 ## Course objectives
 
@@ -35,12 +33,10 @@ The overall goal is to help make better decisions. The field sits at the interfa
 └── README.md
 ```
 
-- **`Lecture Slides/`** — current lecture handouts. Notes are written on these files; do not duplicate “clean” vs “annotated” copies. To recover a previous revision: `git log -- "Lecture Slides/<file>.pdf"` and check out the desired commit.
-- **`labs/`** — reserved for exercise/computer-lab sessions and later project work (models, notebooks, solver scripts). This directory will be added when the first lab material is committed.
+- `**Lecture Slides/**` — current lecture handouts. Notes are written on these files; do not duplicate “clean” vs “annotated” copies. To recover a previous revision: `git log -- "Lecture Slides/<file>.pdf"` and check out the desired commit.
+- `**labs/**` — reserved for exercise/computer-lab sessions and later project work (models, notebooks, solver scripts). This directory will be added when the first lab material is committed.
 
 ## Teaching material and references
-
-Slides and exercise/lab material: this repository and WeBeep.
 
 Complementary texts:
 
@@ -59,4 +55,4 @@ Linear programming and introduction to integer programming:
 
 All rights reserved. See `LICENSE`.
 
-The license covers the entire repository (slides, notes, code, and documentation). Public visibility on GitHub is not a grant of reuse: others may view or clone for personal reading only. Copying, redistribution, modification, commercial use, and reuse of the teaching materials are not permitted. Lecture slides remain copyright of their authors and Politecnico di Milano.
+The license covers the entire repository (slides, notes, code, and documentation). Public visibility on GitHub is **not a grant of reuse**. Copying, redistribution, modification, commercial use, and reuse of the teaching materials are **not permitted**. Lecture slides and codes **remain copyright of their authors and Politecnico di Milano.**
