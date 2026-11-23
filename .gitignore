@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Personal annotated slides — keep on this machine, do not push
+PERSONAL*
